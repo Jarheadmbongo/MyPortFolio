@@ -30,12 +30,13 @@
       <div class="hamburger-menu">
         <img class="imgmenu" src="/icons8-menu-100 (1).png" alt="Menu" />
       </div>
-      <ul class="menu">
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">À propos</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+      <ul id="menu" class="menu">
+        <li><a href="#menu">Accueil</a></li>
+        <li><a href="#ElementApropos">À propos</a></li>
+        <li><a href="#competencess">Competences</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#titreprojects">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <!-- fin navbar -->
@@ -55,7 +56,7 @@
     <!-- Fin -->
 
     <!-- Apropos -->
-    <div class="ElementApropos">
+    <div id="ElementApropos" class="ElementApropos">
       <div class="propos">
         <div class="propos_1">
           <h3>Qui suis-je?</h3>
@@ -75,7 +76,11 @@
       </div>
       <!-- telecharger mon cv -->
       <div class="btn_cv">
-        <button class="buttonDownload">Upload</button>
+      <button>
+    <span class="box">
+        Telecharger mon Cv!
+    </span>
+</button>
       </div>
     </div>
 
@@ -85,7 +90,7 @@
     <!-- COMPETENCES -->
     <div class="competences">
       <div class="compet">
-        <h4>COMPETENCES</h4>
+        <h4 id="competencess">COMPETENCES</h4>
         <div class="compet_1">
           <div class="ElementCompetences">
             <div class="progressbar">
@@ -206,8 +211,8 @@
     </div>
     <!-- SERVICES -->
 
-<div class="service">
-  <h3 class="svr">SERVICES</h3>
+<div id="services" class="service">
+  <h3  class="svr">SERVICES</h3>
   <div class="grpservices">
       <div class="services">
     <div><img class="imgservices" src="/icons8-domaine-100.png" alt=""></div>
@@ -245,7 +250,7 @@
 
     <!-- FIN SERVICES -->
     <div class="Karous">
-     <span class="titreprojects"><p>VOICI LES PROJETS SUR LESQUELS J'AI DEJA TRAVAILLÉ</p></span> 
+     <span id="titreprojects" class="titreprojects"><p>VOICI LES PROJETS SUR LESQUELS J'AI DEJA TRAVAILLÉ</p></span> 
       <div class="projects">
         <div class="project">
           <a
@@ -262,7 +267,7 @@
         </div>
         <div class="project">
           <a href="lien-de-votre-projet.html" target="_blank">
-            <img src="/desktop-preview.jpg" alt="Nom de votre projet" />
+            <img src="/Screenshot from 2023-02-28 13-56-12.png" alt="Nom de votre projet" />
             <div class="overlay">
               <div class="text">Carnet de Contacts  <br>
                 <p class="detailsprojets"> une page web permettant de gérer une liste de contacts avec la possibilité de créer et supprimer des contacts</p>
@@ -271,11 +276,13 @@
           </a>
         </div>
         <div class="project">
-          <a href="lien-de-votre-projet.html" target="_blank">
-            <img src="/desktop-preview.jpg" alt="Nom de votre projet" />
+          <a href="https://realiser-votre-portfolio-jarheadmbongo.lda2022.repl.co/" target="_blank">
+            <img src="/Screenshot from 2023-02-28 14-10-36.png" alt="Nom de votre projet" />
             <div class="overlay">
-              <div class="text">PortFolio</div>
-              <p class="detailsprojets"> ermettra de présenter votre travail et ses compétences aux employeurs potentiels.</p>
+              <div class="text">PortFolio
+                 <p class="detailsprojets"> Un site web qui permet de présenter mon travail et mes compétences</p>
+              </div>
+             
             </div>
           </a>
         </div>
