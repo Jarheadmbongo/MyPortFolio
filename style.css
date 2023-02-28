@@ -503,7 +503,9 @@ form{
   align-items: center;
   justify-content: space-evenly;
 }
-
+.detailsprojets{
+  font-size:13px;
+}
 /* MEDIAQUERY */
 @media only screen and (max-width: 800px){
   .propos{
